@@ -1,4 +1,4 @@
-
+/* Shared Styles */
 .inter {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -7,3 +7,76 @@
   font-variation-settings:
     "wdth" 100;
 }
+.flex{
+  display: flex;
+}
+body{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.description-color{
+  color: rgba(0, 0, 0, 0.5);
+}
+.title-color{
+  font-size: 50px;
+  font-weight: bold;
+  color: #E95A08;
+}
+.title-description{
+  color: rgba(0, 0, 0, 0.5);
+
+}
+
+
+/* Nav Styles */
+ul li a{
+  text-decoration: none;
+}
+ul li{
+  list-style-type: none;
+}
+.nav-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul{
+  display: flex;
+  gap: 48px;
+}
+#nav-home{
+  font-weight: bold;
+  color: #252432;
+}
+
+
+/* Banner Style */
+.banner-title{
+  font-size: 4rem;
+}
+.banner{
+  margin-top: 120px;
+}
+.banner-image{
+  width: 100%;
+}
+
+
+/* Responsive part */
+@media screen and (max-width:576px){
+  
+  .nav-none{
+    display: none;
+    
+  }
+  
+  .banner{
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+ 
+  
+}
+ 
+  
+  
