@@ -29,6 +29,9 @@ body{
 .text-center{
   text-align: center;
 }
+.title-font{
+  font-size: 3.12rem;
+}
 
 
 /* Nav Styles */
@@ -65,6 +68,7 @@ ul li{
 }
 
 /* Card-Styles */
+
 .card-title-font{
   font-size: 3.12rem;
 }
@@ -94,6 +98,29 @@ ul li{
   grid-template-columns: repeat(4,1fr);
 }
 
+/* Plant details */
+.plant-title-font{
+  font-size: 3.12rem;
+}
+
+.plant{
+  display: flex;
+  gap: 60px;
+  margin-top: 210px;
+}
+
+.plant-text li{
+  list-style-type: disc;
+}
+.plant-shop{
+  width: 100%;
+}
+
+
+
+
+
+
 
 
 /* Responsive part */
@@ -113,15 +140,19 @@ ul li{
  }
  /* Card Responsive Styles */
  .card-details{
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   
  }
 .card-none{
   display: none;
  }
- .card{
+.card{
   width: auto;
- }
+}
+/* Plant Responsive */
+.plant{
+  flex-direction: column;
+}
 
 }
 
