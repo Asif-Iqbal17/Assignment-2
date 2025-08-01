@@ -115,6 +115,17 @@ ul li{
 .plant-shop{
   width: 100%;
 }
+.plant-image{
+  position: relative;
+}
+.badge{
+  position: absolute;
+  height: 286px;
+  width: 286px;
+  top: -100px;
+  right: -90px;
+  filter: drop-shadow(-4px 10px 4px #979393);
+}
 
 
 
@@ -152,6 +163,9 @@ ul li{
 /* Plant Responsive */
 .plant{
   flex-direction: column;
+}
+.badge-none{
+  display: none;
 }
 
 }
